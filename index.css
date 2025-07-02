@@ -1,0 +1,207 @@
+*{
+    padding: 0;
+    margin: 0 ;
+    box-sizing: border-box;
+}
+.page{
+    display: grid;
+    width: 100%;
+    height: 45rem;
+    background-repeat: no-repeat;
+    position: relative;
+    background-image: url(img/Rectangle\ 1\ \(1\).svg);
+}
+.head{
+    width: 100%;
+    height: 4rem;
+    padding-left: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding-right: 3rem;
+}
+.head-menu{
+    font-size: 1rem;
+    width: 50rem;
+    height: 4rem;
+    display: flex;
+    align-items: center;
+}
+.head-menu a{
+    width: 10rem;
+    display: flex;
+    justify-content: center;
+}
+.head button{
+    border-radius: 5px;
+    background-color: #F84646;
+    border: none;
+    color: white;
+    width: 4.5rem;
+    height: 2.5rem ;
+}
+.page-info{
+    width: 35rem;
+    height: 16rem;
+    gap: 1rem;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-left: 10rem ;
+}
+.page-info h1{
+    font-size: 3rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.page-info h5{
+    font-size: 1rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.info-regist{
+    background-color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20rem;
+    border-radius: 5px;
+    height: 4rem;
+}
+.info-regist input{
+    width: 15rem;
+    height: 2.5rem;
+    border: none;
+}
+.info-regist button{
+    border-radius: 5px;
+    background-color: #F84646;
+    border: none;
+    color: white;
+    width: 4.5rem;
+    height: 2.5rem ;
+}
+.body{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 6rem 6rem;
+    height: 50rem;
+    justify-content: start;
+}
+.body-quality{
+    display: flex;
+    flex-direction: column;
+    height: 10rem;
+    align-items: center;
+    gap: 1.5rem;
+}
+.body-quality h2{
+    font-size: 2rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+.body-quality h4{
+    text-align: center;
+    width: 45rem;
+    font-size: 1.1rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(63, 63, 63);
+}
+.body-conteiner{
+    margin-top: 2rem;
+    display: grid;
+    justify-content: center;
+    grid-template-rows: 250px 250px ;
+    grid-template-columns: 370px 370px 370px;
+    width: 70rem;
+}
+.body-conteiner .koment{
+    display: grid;
+
+}
+.koment{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.koment-1{
+    margin-left: 3.7rem;
+    margin-top: 2rem;
+    height: 12rem;
+    text-align: center;
+    width: 250px;
+    gap: 0.4rem;
+}
+.koment-1 .imge-1{
+    width: 10rem;
+    height: 4rem;
+}
+span{
+    display: flex;
+    height: 4.5rem;
+    align-items: center;
+    justify-content: center;
+    align-items: start;
+    width: 15rem;
+}
+.imge-1 span{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.ellipse::after{
+    content: "";
+    border-radius: 100%;
+    background-color: #ff5391;
+    width: 40px;
+    height: 40px;
+    margin-left: 1.9rem ;
+    position: absolute;
+}
+.koment-1 h3{
+    width: 15rem;
+}
+.ellipse-1::after{
+    content: "";
+    border-radius: 100%;
+    background-color: #7553FF;
+    width: 40px;
+    height: 40px;
+    margin-right: 3rem;
+    position: absolute;
+}
+.ellipse-2::after{
+    content: "";
+    border-radius: 100%;
+    background-color: #53C1FF;
+    width: 40px;
+    height: 40px;
+    margin-left: 4.5rem;
+    position: absolute;
+}
+.ellipse-3::after{
+    content: "";
+    border-radius: 100%;
+    background-color: #53C1FF;
+    width: 40px;
+    height: 40px;
+    margin-right: 2.5rem;
+    position: absolute;
+}
+.ellipse-4::after{
+    content: "";
+    border-radius: 100%;
+    background-color: #FF5353;
+    width: 40px;
+    height: 40px;
+    margin-left: 2.5rem;
+    position: absolute;
+}
+.ellipse-5::after{
+    content: "";
+    border-radius: 100%;
+    background-color: #FFBA53;
+    width: 40px;
+    height: 40px;
+    margin-left: 2rem;
+    position: absolute;
+}
