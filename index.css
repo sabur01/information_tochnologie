@@ -3,6 +3,14 @@
     margin: 0 ;
     box-sizing: border-box;
 }
+button{
+    border-radius: 5px;
+    background-color: #F84646;
+    border: none;
+    color: white;
+    width: 4.5rem;
+    height: 2.5rem ;
+}
 .page{
     display: grid;
     width: 100%;
@@ -264,4 +272,44 @@ span{
     align-items: center;
     color: white;
     justify-content: center;
+}
+.read{
+    width: 100%;
+    height: 50rem;
+    border: 3px solid blue;
+    padding-left: 4rem;
+    padding-right: 4rem;
+}
+.read-1{
+    width: 100%;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    justify-content: space-between;
+    border: 2px solid green;
+}
+.read-img{
+    width: 45%;
+    background-image: url(img/images/Illustration.svg);
+    height: 408px;
+}
+.quality{
+    display: flex;
+}
+.quality-text{
+    display: flex;
+    flex-direction: column; 
+    width: 45%;
+    font-size: 1.7rem;
+    gap: 2rem;
+} 
+.quality-text p{
+    font-size: 1.4rem;
+}
+.quality-text button{
+    padding: 12px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    width: 7rem;
+    margin-top: 1rem;
 }
